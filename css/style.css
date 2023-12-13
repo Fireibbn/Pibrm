@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -904,7 +904,65 @@ header ul li a.active {
 
 }
 
+/*Devocional*/
 
+#DevoPage {
+  background-color: #e4fff0;
+
+}
+
+#DevoTitulo {
+  position: absolute;
+  width: 350px;
+  height: 28px;
+  left: 40px;
+  top: 35px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  text-justify: initial;
+  color: #FFFFFF;
+
+}
+
+.ConteinerDevo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  top: 320px;
+}
+
+.cardDevo1 {
+  margin: 20px;
+  width: 220px;
+  height: 380px;
+  background-image: url(../img/Devocional/dia0312.png);
+  image-orientation: center;
+
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.cardDevo2 {
+  margin: 20px;
+  width: 220px;
+  height: 350px;
+  background-image: url(../img/Devocional/dia1012.png);
+  image-orientation: center;
+
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 
 
 
@@ -914,14 +972,15 @@ header ul li a.active {
 
 /*Fire Escola*/
 
-#firepage {
-  height: 900px;
+#RenovoPage {
+  background-color: #000000;
 }
+
 
 #backEscola {
   position: absolute;
   width: 100%;
-  height: 900px;
+  height: 400px;
   left: 0px;
   top: 0px;
 
@@ -929,27 +988,31 @@ header ul li a.active {
 
 .cardEscola1 {
   position: absolute;
-  width: 295px;
-  height: 189px;
-  left: 60px;
+  width: 325px;
+  height: 202px;
+  left: 40px;
   top: 400px;
-  background-image: url(../img/EsFIre/Deep.png);
+  background-image: url(../img/Renovo/Eschatos.png);
   image-orientation: center;
   border-radius: 25px;
-  box-shadow: -6px 6px 1px rgba(0, 0, 0, 0.3)
+  box-shadow: -6px 6px 1px rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 .cardEscola2 {
   position: absolute;
-  width: 295px;
-  height: 189px;
+  width: 325px;
+  height: 202px;
   left: 0px;
   top: 240px;
-  background-image: url(../img/EsFIre/Sistematica.png);
+  background-image: url(../img/Renovo/Sistematica.png);
   image-orientation: center;
   border-radius: 25px;
-  box-shadow: -6px 6px 1px rgba(0, 0, 0, 0.3)
+  box-shadow: -6px 6px 1px rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -1374,7 +1437,7 @@ main.Pages section.Page {
 
 
   #Homeprog2 {
-    left: 40px;
+    left: 30px;
   }
 
   #backDev {
