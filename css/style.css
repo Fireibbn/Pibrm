@@ -49,7 +49,7 @@
   height: 78px;
   left: 0px;
   top: 13px;
-  z-index: 1;
+  z-index: 10;
 }
 
 
@@ -389,26 +389,7 @@
 
 }
 
-#text1 {
 
-  position: absolute;
-  width: 279px;
-  height: 225px;
-  left: 60px;
-  top: 128px;
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 37px;
-  display: flex;
-  align-items: flex-end;
-  text-transform: uppercase;
-
-  color: #FFFFFF;
-
-}
 
 
 
@@ -447,7 +428,7 @@
 /* Devocional */
 
 #Devocional {
-  background-color: #fffff;
+  background-color: #4D1446;
 
 
 }
@@ -904,10 +885,10 @@ header ul li a.active {
 
 }
 
-/*Devocional*/
+/*Semana Renovada*/
 
 #DevoPage {
-  background-color: #e4fff0;
+  background-color: #e7e2d2;
 
 }
 
@@ -915,17 +896,37 @@ header ul li a.active {
   position: absolute;
   width: 350px;
   height: 28px;
-  left: 40px;
+  left: 45px;
   top: 35px;
 
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 29px;
   line-height: 39px;
   text-align: center;
   text-transform: uppercase;
-  text-justify: initial;
+  color: #FFFFFF;
+
+}
+
+#DevoSub {
+
+  position: absolute;
+  width: 279px;
+  height: 225px;
+  left: 60px;
+  top: 100px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+
   color: #FFFFFF;
 
 }
@@ -942,32 +943,17 @@ header ul li a.active {
   top: 320px;
 }
 
-.cardDevo1 {
-  margin: 20px;
+.DevoCards {
+
   width: 220px;
   height: 380px;
-  background-image: url(../img/Devocional/dia0312.png);
-  image-orientation: center;
 
-  background-repeat: no-repeat;
-  background-size: auto;
 }
 
-.cardDevo2 {
-  margin: 20px;
-  width: 220px;
-  height: 350px;
-  background-image: url(../img/Devocional/dia1012.png);
-  image-orientation: center;
-
-  background-repeat: no-repeat;
-  background-size: auto;
+.DevoCadsImg {
+  width: 260px;
+  height: 380px;
 }
-
-
-
-
-
 
 
 /*Fire Escola*/
@@ -1619,4 +1605,44 @@ main.Pages section.Page {
   left: 0px;
   width: 100vw;
   height: 690px;
+}
+
+
+.Devocional {
+  position: absolute;
+  top: 0px;
+  width: 370;
+  height: max-content;
+}
+
+
+
+
+/*Material do Devocional*/
+
+.Devocional {
+  display: none;
+  position: absolute;
+  z-index: 20;
+  top: 0px;
+  width: 100vw;
+  align-items: center;
+
+
+}
+
+
+.devoimg {
+  position: absolute;
+  top: 0;
+  width: 101vw;
+}
+
+#voltarDevo {
+  position: absolute;
+  width: 83px;
+  height: 78px;
+  left: 0px;
+  top: 13px;
+  z-index: 10;
 }
