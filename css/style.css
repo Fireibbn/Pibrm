@@ -1620,15 +1620,22 @@ main.Pages section.Page {
 
 /*Material do Devocional*/
 
-.Devocional {
+.Devocionalcard1 {
   display: none;
   position: absolute;
   z-index: 20;
   top: 0px;
   width: 100vw;
   align-items: center;
+}
 
-
+.Devocionalcard2 {
+  display: none;
+  position: absolute;
+  z-index: 20;
+  top: 0px;
+  width: 100vw;
+  align-items: center;
 }
 
 
